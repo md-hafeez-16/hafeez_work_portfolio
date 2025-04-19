@@ -17,7 +17,7 @@ const About = () => {
           I am a passionate Backend Developer with 2 years of hands-on experience and a strong 
           foundation in modern web technologies. I have a drive for creating efficient, 
           scalable solutions, with expertise in Node.js, MongoDB, and Express. Over the past two years, 
-          I've successfully delivered numerous projects that showcase both my technical capabilities and 
+          I have successfully delivered numerous projects that showcase both my technical capabilities and 
           problem-solving skills.
           </p>
           
