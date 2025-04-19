@@ -45,12 +45,12 @@ const Education = () => {
                   <p className="text-gray-400">{edu.institution}</p>
                   <p className="text-gray-400">{edu.location}</p>
                 </div>
-                <div className="mt-2 md:mt-0 text-right">
+                {/* <div className="mt-2 md:mt-0 text-right">
                   <p className="text-gray-400">{edu.period}</p>
                   {edu.gpa && (
                     <p className="text-gray-400">CGPA: {edu.gpa}</p>
                   )}
-                </div>
+                </div> */}
               </div>
               
               {edu.technologies && (
