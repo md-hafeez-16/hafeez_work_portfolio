@@ -5,7 +5,7 @@ const contactInfo = {
   email: "mahhmmedhafeez@gmail.com",
   phone: "+91 80737 37525",
   location: "Bengaluru, India",
-  linkedin: "Mahhmmed Hafeez Mulla"
+  linkedin: "mahhmmed-hafeez-mulla-5605621a2/"
 };
 
 const Contact = () => {

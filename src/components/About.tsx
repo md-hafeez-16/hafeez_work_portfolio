@@ -14,10 +14,11 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-8">About Me</h2>
         <div className="space-y-6 text-gray-300">
           <p className="text-lg">
-            I am a passionate Backend Developer with a strong foundation in modern web technologies
-            and a drive for creating efficient, scalable solutions. My expertise lies in Node.js,
-            MongoDB, and Express, where I&apos;ve successfully delivered numerous projects that demonstrate
-            my technical capabilities and problem-solving skills.
+          I am a passionate Backend Developer with 2 years of hands-on experience and a strong 
+          foundation in modern web technologies. I have a drive for creating efficient, 
+          scalable solutions, with expertise in Node.js, MongoDB, and Express. Over the past two years, 
+          I've successfully delivered numerous projects that showcase both my technical capabilities and 
+          problem-solving skills.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
@@ -35,7 +36,7 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-4">Education</h3>
               <p className="font-medium">B.E., Electronics and Communication</p>
               <p className="text-gray-400">HKBK College of Engineering</p>
-              <p className="text-gray-400">CGPA: 7.0</p>
+              {/* <p className="text-gray-400">CGPA: 7.0</p> */}
             </div>
           </div>
 

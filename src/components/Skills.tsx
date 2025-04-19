@@ -19,7 +19,7 @@ const skillCategories = [
   },
   {
     title: "API Development",
-    skills: ["RESTful APIs", "API Documentation", "Postman"]
+    skills: ["RESTful APIs", "API Documentation", "Postman", "HoppScotch"]
   },
   {
     title: "Soft Skills",

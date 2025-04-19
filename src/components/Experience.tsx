@@ -9,30 +9,35 @@ const experiences = [
     projects: [
       {
         name: "Sarathi",
-        description: "Taxi booking system with ride scheduling, real-time tracking, fare calculation, and secure authentication."
+        description: "Taxi booking system with ride scheduling, real-time tracking, fare calculation, and secure authentication.",
+        tags: ["Node.js", "MongoDB", "RESTful APIs", "Real-time Tracking", "Authentication"]
       },
       {
         name: "Amogh",
-        description: "News aggregation platform with optimized API responses for real-time content updates."
+        description: "News aggregation platform with optimized API responses for real-time content updates.",
+        tags: ["Node.js", "API Optimization", "Real-time Updates", "News Aggregation"],
       },
       {
         name: "Zeth & Shimmer",
-        description: "E-commerce platforms with inventory management, user authentication, and seamless checkout experiences."
+        description: "E-commerce platforms with inventory management, user authentication, and seamless checkout experiences.",
+        tags: ["E-commerce", "Inventory Management", "User Authentication", "Node.js"]
       },
       {
         name: "Mahamasthakabhishek 2025",
-        description: "Event management system for registrations and volunteer coordination."
+        description: "Event management system for registrations and volunteer coordination.",
+        tags: ["Event Management", "Backend Development", "Node.js", "API Development"]
       },
       {
-        name: "Orbit Eats",
-        description: "Customizable restaurant management system with real-time updates and secure payment processing."
-      }
+        name: "Sahaya 24x7",
+        description: "A household services platform offering solutions like plumbing, carpentry, electrical work, and appliance repair. Includes features for service booking, provider assignment, real-time tracking, secure payments, and user management.",
+        tags: ["Node.js", "MongoDB", "Service Booking", "Real-time Tracking", "Payment Integration"]
+      }      
     ]
   },
   {
-    title: "Freelance Project",
+    title: "Software Developer",
     company: "Sameday Cleaning Services",
-    location: "Dubai",
+    location: "Dubai (Remote)",
     period: "12/2024 - 02/2025",
     description: [
       "Developed the entire backend for a Dubai-based cleaning service company",

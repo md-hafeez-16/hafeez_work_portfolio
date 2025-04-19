@@ -5,15 +5,15 @@ const education = [
     degree: "Full Stack Development",
     institution: "ExcelR",
     location: "Bengaluru, India",
-    period: "11/2023 - 06/2024",
+    period: "2023",
     technologies: ["NodeJS", "Java", "Spring Boot", "JavaScript", "HTML", "CSS", "Bootstrap"]
   },
   {
-    degree: "B.E., Electronics and Communication",
+    degree: "B.E., Electronics and Communication Engineering",
     institution: "HKBK College of Engineering",
     location: "Bengaluru, India",
-    period: "08/2019 - 07/2023",
-    gpa: "7.0"
+    period: "2023",
+    //gpa: "7.0"
   }
 ];
 
