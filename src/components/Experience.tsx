@@ -154,7 +154,12 @@ const experiences = [
         name: "Sahaya 24x7",
         description: "A household services platform offering solutions like plumbing, carpentry, electrical work, and appliance repair. Includes features for service booking, provider assignment, real-time tracking, secure payments, and user management.",
         tags: ["Node.js", "MongoDB", "Service Booking", "Real-time Tracking", "Payment Integration"]
-      }      
+      },
+          {
+      name: "Live Smart India",
+      description: "A wellness and health-tech platform offering AI-powered health assistance, personalized diet plans, organic superfoods, telemedicine, and eco-friendly wellness products. Backend built to support scalable health services, cloud kitchen orders, and expert consultations.",
+      tags: ["Node.js", "MongoDB", "Wellness Platform", "Telemedicine", "E-commerce", "Custom Meal Planning"]
+    }      
     ]
   },
   {
@@ -217,11 +222,11 @@ const Experience = () => {
   };
 
   const tagColors = [
-    'from-blue-500 to-cyan-500',
-    'from-purple-500 to-pink-500',
-    'from-green-500 to-teal-500',
-    'from-orange-500 to-red-500',
-    'from-indigo-500 to-purple-500'
+    'from-blue-500 to-cyan-250',
+    // 'from-purple-500 to-pink-500',
+    // 'from-green-500 to-teal-500',
+    // 'from-orange-500 to-red-500',
+    // 'from-indigo-500 to-purple-500'
   ];
 
   return (

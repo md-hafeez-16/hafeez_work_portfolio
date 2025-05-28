@@ -142,19 +142,19 @@ const About = () => {
             with 2 years of hands-on experience and a strong foundation in modern web technologies. 
             I have a drive for creating efficient, scalable solutions, with expertise in{' '}
             <motion.span 
-              className="text-green-400 font-semibold"
+              className="text-blue-400 font-semibold"
               whileHover={{ color: "#4ade80" }}
             >
               Node.js
             </motion.span>,{' '}
             <motion.span 
-              className="text-purple-400 font-semibold"
+              className="text-blue-400 font-semibold"
               whileHover={{ color: "#a78bfa" }}
             >
               MongoDB
             </motion.span>, and{' '}
             <motion.span 
-              className="text-cyan-400 font-semibold"
+              className="text-blue-400 font-semibold"
               whileHover={{ color: "#22d3ee" }}
             >
               Express
@@ -175,10 +175,10 @@ const About = () => {
               rotateY: 5,
               boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
             }}
-            className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-6 rounded-xl backdrop-blur-sm border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300"
+            className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-6 rounded-xl backdrop-blur-sm border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
           >
             <motion.h3 
-              className="text-xl font-semibold mb-4 text-blue-400"
+              className="text-xl font-semibold mb-4 text-purple-400"
               whileHover={{ scale: 1.1 }}
             >
               Languages

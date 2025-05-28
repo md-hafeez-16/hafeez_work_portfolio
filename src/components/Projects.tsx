@@ -620,7 +620,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "SameDay Cleaning Services",
-    period: "2023 - Present",
+    period: "2024 - 2025",
     category: "Web Development",
     description: [
       "Developed a comprehensive cleaning service platform with online booking system",
@@ -628,9 +628,9 @@ const projects: Project[] = [
       "Integrated payment processing and service management features",
       "Collaborated with a development team to deliver a scalable solution"
     ],
-    tags: ["React", "Web Development", "UI/UX", "Payment Integration", "Team Collaboration"],
+    tags: ["React", "NodeJS", "Web Development", "UI/UX", "Payment Integration", "Team Collaboration"],
     highlights: ["Live Production Website", "Client Collaboration", "Full-Stack Development"],
-    status: "Live",
+    status: "Completed",
     complexity: "Advanced",
     website: "https://cleansameday.com/"
   },
