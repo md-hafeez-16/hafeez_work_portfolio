@@ -97,7 +97,7 @@ const contactInfo = {
 
 const Contact = () => {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
-  const controls = useAnimation();
+ // const controls = useAnimation();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -192,7 +192,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            Let's Connect
+            Lets Connect
           </h2>
           <motion.div
             className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"
@@ -202,7 +202,7 @@ const Contact = () => {
             viewport={{ once: true }}
           />
           <p className="text-gray-400 mt-6 text-lg">
-            Ready to bring your ideas to life? Let's start a conversation.
+            Ready to bring your ideas to life? Lets start a conversation.
           </p>
         </motion.div>
 

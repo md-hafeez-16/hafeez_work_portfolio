@@ -665,9 +665,9 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+  const [/*hoveredProject*/, setHoveredProject] = useState<number | null>(null);
   const [filter, setFilter] = useState<string>('All');
-  const controls = useAnimation();
+  //const controls = useAnimation();
   const containerRef = useRef<HTMLDivElement>(null);
 
   const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];

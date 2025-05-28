@@ -197,8 +197,8 @@ const skillCategories: SkillCategory[] = [
 const Skills: React.FC = () => {
   const [hoveredCategory, setHoveredCategory] = useState<number | null>(null);
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
-  const [isVisible, setIsVisible] = useState(false);
-  const controls = useAnimation();
+  const [/* isVisible */, setIsVisible] = useState(false);
+  //const controls = useAnimation();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
