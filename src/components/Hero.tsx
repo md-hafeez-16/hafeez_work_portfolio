@@ -74,7 +74,7 @@ const Hero = () => {
 
   const letterVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: (i) => ({
+    visible: (i: number) => ({
       opacity: 1,
       y: 0,
       transition: {
