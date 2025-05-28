@@ -53,7 +53,7 @@
 // export default Hero; 
 
 
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { DocumentArrowDownIcon } from '@heroicons/react/24/outline';
 
