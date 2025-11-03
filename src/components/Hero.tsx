@@ -150,7 +150,7 @@ const Hero = () => {
           className="relative mb-8"
         >
           <h2 className="text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 font-semibold">
-            Backend Developer
+            Software Developer
           </h2>
           <motion.div
             className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-600 rounded-full"
