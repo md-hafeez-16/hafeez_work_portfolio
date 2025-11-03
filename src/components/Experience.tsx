@@ -126,9 +126,9 @@ import { useRef } from 'react';
 const experiences = [
   {
     title: "Backend Developer",
-    company: "Orbit Technologys",
+    company: "Orbit Core Tech",
     location: "Hubli, India",
-    period: "07/2024 - Present",
+    period: "07/2023 - 09/2025",
     projects: [
       {
         name: "Sarathi",
@@ -138,7 +138,7 @@ const experiences = [
       {
         name: "Amogh",
         description: "News aggregation platform with optimized API responses for real-time content updates.",
-        tags: ["Node.js", "API Optimization", "Real-time Updates", "News Aggregation"],
+        tags: ["Node.js", "API Optimization", "Real-time Updates", "News Aggregation"]
       },
       {
         name: "Zeth & Shimmer",
@@ -151,15 +151,10 @@ const experiences = [
         tags: ["Event Management", "Backend Development", "Node.js", "API Development"]
       },
       {
-        name: "Sahaya 24x7",
-        description: "A household services platform offering solutions like plumbing, carpentry, electrical work, and appliance repair. Includes features for service booking, provider assignment, real-time tracking, secure payments, and user management.",
-        tags: ["Node.js", "MongoDB", "Service Booking", "Real-time Tracking", "Payment Integration"]
-      },
-          {
-      name: "Live Smart India",
-      description: "A wellness and health-tech platform offering AI-powered health assistance, personalized diet plans, organic superfoods, telemedicine, and eco-friendly wellness products. Backend built to support scalable health services, cloud kitchen orders, and expert consultations.",
-      tags: ["Node.js", "MongoDB", "Wellness Platform", "Telemedicine", "E-commerce", "Custom Meal Planning"]
-    }      
+        name: "Live Smart India",
+        description: "A wellness and health-tech platform offering AI-powered health assistance, personalized diet plans, organic superfoods, telemedicine, and eco-friendly wellness products. Backend built to support scalable health services, cloud kitchen orders, and expert consultations.",
+        tags: ["Node.js", "MongoDB", "Wellness Platform", "Telemedicine", "E-commerce", "Custom Meal Planning"]
+      }
     ]
   },
   {
@@ -186,6 +181,7 @@ const experiences = [
     ]
   }
 ];
+
 
 const Experience = () => {
   const ref = useRef(null);

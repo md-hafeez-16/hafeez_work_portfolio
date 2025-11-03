@@ -52,10 +52,8 @@
 
 // export default Hero; 
 
-
 import React, { useMemo } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { DocumentArrowDownIcon } from '@heroicons/react/24/outline';
 
 const Hero = () => {
   const { scrollY } = useScroll();
@@ -65,10 +63,10 @@ const Hero = () => {
   // Fix for hydration: Generate stable bubble positions
   const bubblePositions = useMemo(() => {
     return Array.from({ length: 20 }, (_, i) => ({
-      left: `${(i * 17.3) % 100}%`, // Use deterministic positioning based on index
-      top: `${(i * 23.7) % 100}%`,  // Different multiplier to avoid patterns
+      left: `${(i * 17.3) % 100}%`,
+      top: `${(i * 23.7) % 100}%`,
       delay: i * 0.2,
-      duration: 3 + (i % 5) * 0.5 // Vary duration based on index
+      duration: 3 + (i % 5) * 0.5
     }));
   }, []);
 
@@ -222,7 +220,7 @@ const Hero = () => {
               color: "#ffffff"
             }}
             whileTap={{ scale: 0.95 }}
-            href="/assets/hafeez_cv.pdf" 
+            href="/assets/Hafeez_mulla_CV.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-gray-600 text-gray-300 px-8 py-3 rounded-full font-medium transition-all duration-300 inline-flex items-center gap-2 hover:shadow-lg backdrop-blur-sm"
@@ -231,7 +229,7 @@ const Hero = () => {
               animate={{ rotate: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              <DocumentArrowDownIcon className="w-5 h-5" />
+              ↓
             </motion.div>
             View Resume
           </motion.a>

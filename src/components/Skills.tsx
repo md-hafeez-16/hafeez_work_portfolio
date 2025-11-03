@@ -112,7 +112,8 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Node.js", level: 85, description: "Server-side JavaScript runtime" },
       { name: "Express.js", level: 80, description: "Web application framework" },
-      { name: "MongoDB", level: 75, description: "NoSQL database management" }
+      { name: "MongoDB", level: 75, description: "NoSQL database management" },
+      { name: "Firebase", level: 78, description: "Cloud platform for backend services, authentication, and push notifications" }
     ]
   },
   {
@@ -141,6 +142,7 @@ const skillCategories: SkillCategory[] = [
     },
     skills: [
       { name: "MongoDB", level: 75, description: "Document-based database" },
+      { name: "Firebase Firestore", level: 72, description: "NoSQL cloud database for scalable data storage" },
       { name: "Database Design", level: 70, description: "Schema optimization" },
       { name: "Query Optimization", level: 65, description: "Performance tuning" }
     ]

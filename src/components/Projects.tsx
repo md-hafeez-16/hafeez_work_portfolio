@@ -619,6 +619,37 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Sahaya 24x7",
+    period: "06/2025 - Present",
+    category: "Web Development",
+    description: [
+      "Developed a full-fledged on-demand home service platform connecting users with service providers across multiple categories",
+      "Built a scalable backend architecture using Node.js, Express, and MongoDB",
+      "Implemented user authentication, service provider listings, booking management, and secure payment modules",
+      "Integrated real-time tracking and communication between customers and service providers",
+      "Implemented push notification services using Firebase for real-time booking updates and alerts",
+      "Designed RESTful APIs optimized for frontend and mobile app integration"
+    ],
+    tags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "RESTful APIs",
+      "Real-time Tracking",
+      "Service Booking",
+      "Payment Integration"
+    ],
+    highlights: [
+      "End-to-End Backend Development",
+      "Real-time Functionality",
+      "Firebase Integration",
+      "Scalable Architecture"
+    ],
+    status: "Ongoing",
+    complexity: "Advanced"
+  },
+  {
     title: "SameDay Cleaning Services",
     period: "2024 - 2025",
     category: "Web Development",
@@ -662,6 +693,7 @@ const projects: Project[] = [
     complexity: "Intermediate"
   }
 ];
+
 
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
